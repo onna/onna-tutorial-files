@@ -7,7 +7,7 @@
   <img src="https://onna.com/wp-content/uploads/2020/03/h-onna-solid.png" alt="Onna Logo"></a>
 </h1>
 
-<h2 align="center">Onna-Tutorial-Files </h2>
+<h2 align="center">Onna Tutorial Files </h2>
 
 <!-- TABLE OF CONTENTS -->
 ## Table Of Contents
