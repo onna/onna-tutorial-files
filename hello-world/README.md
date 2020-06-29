@@ -24,9 +24,43 @@ Additional `Wget`and or `cURL` for downloading the example script form GitHub.
 
 ## Setup
 
-- Create `dir` and `venv` in this directory
-- Download example script fro GitHub with (wget/cURL)
-- Change settings to $YOUR-ACCOUNT settings
-- Activate `venv`
-- `pip install -r requirements.txt`
-- Run `venv`
+Create a directory
+
+```shell
+mkdir onna-example
+````
+
+Change into that directory and create a `venv` (Virtual Environment)
+
+```shell
+cd onna-example
+python3 -m venv .venv
+```
+Download example script fro GitHub with (wget/cURL)
+
+```shell
+wget https://raw.githubusercontent.com/onna/onna-tutorial-files/master/Dogs.txt (Change that later!)
+```
+Change settings to $YOUR-ACCOUNT settings (Explain with example)
+
+Activate `venv`
+
+```shell
+source .venv/bin/activate
+````
+
+`pip install -r requirements.txt`
+
+```shell
+pip install -r requirements.txt
+```
+
+Change permissions
+
+```shell
+chmod +x create-datasource.py
+````
+
+Run script
+
+./create-datasource.py
