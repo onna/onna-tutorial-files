@@ -36,13 +36,19 @@ Change into that directory and create a `venv` (Virtual Environment)
 cd onna-example
 python3 -m venv .venv
 ```
-Download example script fro GitHub with (wget/cURL)
+Download example script from GitHub with (Wget/cURL)
+
+Wget
 
 ```shell
 wget https://raw.githubusercontent.com/onna/onna-tutorial-files/master/hello-world/create-datasource.py
 ```
 
-(Add cURL example)
+cURL
+
+```shell
+curl https://raw.githubusercontent.com/onna/onna-tutorial-files/master/hello-world/create-datasource.py -o create-datasource.py
+```
 
 Change settings to $YOUR-ACCOUNT settings (Explain with example)
 
@@ -52,7 +58,7 @@ Activate `venv`
 source .venv/bin/activate
 ````
 
-`pip install -r requirements.txt`
+Install requirements with pip
 
 ```shell
 pip install -r requirements.txt
