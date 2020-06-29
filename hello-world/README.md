@@ -28,4 +28,5 @@ Additional `Wget`and or `cURL` for downloading the example script form GitHub.
 - Download example script fro GitHub with (wget/cURL)
 - Change settings to $YOUR-ACCOUNT settings
 - Activate `venv`
+- `pip install -r requirements.txt`
 - Run `venv`
