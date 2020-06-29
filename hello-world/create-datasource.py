@@ -1,4 +1,6 @@
 #!.venv/bin/python
+# The above python interpreter is set to a venv, located in .venv of this directory.
+# If you use another venv this needs to be adjusted!
 import asyncio
 import aiohttp
 import json
