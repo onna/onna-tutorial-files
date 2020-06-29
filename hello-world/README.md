@@ -41,6 +41,9 @@ Download example script fro GitHub with (wget/cURL)
 ```shell
 wget https://raw.githubusercontent.com/onna/onna-tutorial-files/master/Dogs.txt (Change that later!)
 ```
+
+(Add cURL example)
+
 Change settings to $YOUR-ACCOUNT settings (Explain with example)
 
 Activate `venv`
@@ -63,4 +66,6 @@ chmod +x create-datasource.py
 
 Run script
 
+```shell
 ./create-datasource.py
+```
