@@ -15,7 +15,7 @@ Access to the Onna API requires that you have an active account.
 
 You can sign up for an Onna account by filling out the [registration form](https://register.onna.com/signup?trial=true "Onna trial account registration").
 
-You should also create a [workspace](https://support.onna.com/en/articles/1151536-how-to-create-a-workspace "How to create a workspace") in your Onna account, and remember its name.
+You should also [create a workspace](https://support.onna.com/en/articles/1151536-how-to-create-a-workspace "How to create a workspace") in your Onna account, and remember its name.
 
 Additional `Wget`and or `cURL` for downloading the example script form GitHub.
 
