@@ -3,6 +3,7 @@ import asyncio
 import aiohttp
 import json
 
+# Configuration Variables like username, account name, etc
 base_url = "https://enterprise.onna.com"
 container = "container"
 scope = account = "account"
@@ -11,7 +12,7 @@ workspace_name = "workspace"
 username = "you@example.com"
 password = "super-secret-password"
 
-
+# Getting your token
 async def auth():
     async with aiohttp.ClientSession() as session:
         resp = await session.get(auth_code_url)
@@ -38,7 +39,8 @@ async def auth():
         return jwt_token
     return None
 
-
+# Creating a crawler (Datasource) in a workspace (created via the UI).
+# This crawler crawls https://confluence.cornell.edu/
 async def create_crawler_ds():
     token = await auth()
     if not token:
