@@ -39,7 +39,7 @@ python3 -m venv .venv
 Download example script fro GitHub with (wget/cURL)
 
 ```shell
-wget https://raw.githubusercontent.com/onna/onna-tutorial-files/master/Dogs.txt (Change that later!)
+wget https://raw.githubusercontent.com/onna/onna-tutorial-files/master/hello-world/create-datasource.py
 ```
 
 (Add cURL example)
