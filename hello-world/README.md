@@ -36,7 +36,57 @@ Change into that directory and create a `venv` (Virtual Environment)
 cd onna-example
 python3 -m venv .venv
 ```
-Download example script from GitHub with (Wget/cURL)
+
+Activate `venv`
+
+```shell
+source .venv/bin/activate
+```
+
+## Install
+
+Install requirements with pip
+
+```shell
+pip install -r requirements.txt
+```
+
+## Authentication
+
+Before you run the script you want to make sure that your credentials are working and that everything is setup
+properly.
+
+Download the [check-auth](https://raw.githubusercontent.com/onna/onna-tutorial-files/master/hello-world/check-auth.py) script
+and replace the placeholders with your credentials (username, account, etc).
+
+Wget
+
+```shell
+wget https://raw.githubusercontent.com/onna/onna-tutorial-files/master/hello-world/check-auth.py
+```
+
+cURL
+
+```shell
+curl https://raw.githubusercontent.com/onna/onna-tutorial-files/master/hello-world/check-auth.py -o create-datasource.py
+```
+
+Change permissions of the script and run it:
+
+```shell
+chmod +x check-auth.py
+./check-auth.py
+```
+
+The response should have a value for auth_code, it is required for the next leg of the authentication flow:
+
+```shell
+auth_code: xxxxx...
+```
+
+## Create A Datasource
+
+Download [example script from GitHub](https://raw.githubusercontent.com/onna/onna-tutorial-files/master/hello-world/create-datasource.py) with (Wget/cURL)
 
 Wget
 
@@ -52,23 +102,11 @@ curl https://raw.githubusercontent.com/onna/onna-tutorial-files/master/hello-wor
 
 Change settings to $YOUR-ACCOUNT settings (Explain with example)
 
-Activate `venv`
-
-```shell
-source .venv/bin/activate
-````
-
-Install requirements with pip
-
-```shell
-pip install -r requirements.txt
-```
-
 Change permissions
 
 ```shell
 chmod +x create-datasource.py
-````
+```
 
 Run script
 
