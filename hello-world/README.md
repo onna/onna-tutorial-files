@@ -22,6 +22,12 @@ Additional `Wget`and or `cURL` for downloading the example script form GitHub.
 > Note: If you do not have or want all the needed requirements installed, get the Docker container (HERE LINK TO CONTAINER)
 > And here the docs about how to run the container.
 
+## Docker
+
+```shell
+docker run -it --env-file .env onna
+```
+
 ## Setup
 
 Create a directory
