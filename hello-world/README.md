@@ -28,7 +28,7 @@ Create a directory
 
 ```shell
 mkdir onna-example
-````
+```
 
 Change into that directory and create a `venv` (Virtual Environment)
 

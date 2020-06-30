@@ -31,3 +31,4 @@ libsrc
 pip-selfcheck.json
 snippets/available
 _build
+.env
