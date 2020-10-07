@@ -27,7 +27,6 @@ venv
 docker/elastic/elasticsearch/
 charts/*/*.tgz
 charts/*/*/*.tgz
-.vscode
 libsrc
 pip-selfcheck.json
 snippets/available
