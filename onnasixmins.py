@@ -53,10 +53,15 @@ async def create_crawler_ds():
     headers = {"Authorization": f"Bearer {token}"}
     async with aiohttp.ClientSession() as session:
         data = {
-            "@id": f"{workspace_url}/onnacrawler",
-            "@type": "CrawlerDatasource",
-            "title": "Onna Web Crawler",
-            "urls": ["https://confluence.cornell.edu/"],
+            "@type": "ConfluenceDatasource",
+            "sync_status": "pending",
+            "type_sync": "auto",
+            "original_url": "https://confluence.cornell.edu",
+            "collect_links": False,
+            "connection_type": "no-proxy",
+            "data_types": ["resources"],
+            "title": "Confluence",
+            "id": "onnaconfluence",
         }
         resp = await session.post(
             workspace_url, data=json.dumps(data), headers=headers, ssl=False
