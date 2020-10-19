@@ -3,12 +3,12 @@ import aiohttp
 import json
 
 base_url = "https://enterprise.onna.com"
-container = "container"
-scope = account = "account"
+container = "CONTAINER"
+scope = account = "MYACCOUNT"
 auth_code_url = f"{base_url}/api/{container}/{account}/@oauthgetcode?client_id=canonical&scope={account}"
-workspace_name = "workspace"
-username = "you@example.com"
-password = "super-secret-password"
+workspace_name = "MYWORKSPACE"
+username = "YOUR@EMAIL.COM"
+password = "Y0urP#ssWoRD!*"
 
 
 async def auth():
