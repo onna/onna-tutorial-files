@@ -9,15 +9,9 @@
 
 <h2 align="center">Onna Documentation Files </h2>
 
-<!-- TABLE OF CONTENTS -->
-## Table Of Contents
+## About
 
-- [About the Project](#about-the-project)
-- [Documentation](#documentation)
-
-## About The Project
-
-Reference files for the technical documentation of [Onna](https://onna.com "Link to onna.com").
+Reference files and examples for the technical documentation of [Onna](https://onna.com "Link to onna.com").
 
 ## Documentation
 
