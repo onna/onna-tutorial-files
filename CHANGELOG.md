@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.0.3]
+
+- Fix comments in onnasixmins.py
+
 ## [1.0.2]
 
 - Overhaul repository setup
