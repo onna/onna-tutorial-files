@@ -14,9 +14,6 @@ parts/
 *.fs
 include
 lib
-Intra-339914218998-gou6llf3euva7oqb9rh57pi5vn2ocio0.apps.googleusercontent.com.json
-Intra-3863b7170883-storage.json
-o365app.key
 .idea/
 .kube/
 .DS_Store
