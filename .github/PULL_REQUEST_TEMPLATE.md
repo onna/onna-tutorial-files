@@ -4,8 +4,6 @@
 
 *Please include a summary of the change.*
 
-Clubhouse: (*Please add link to the Clubhouse story*)
-
 # ⚡ Priority
 
 Define the ETA
