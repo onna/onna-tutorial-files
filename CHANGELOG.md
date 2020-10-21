@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.0.4]
+
+- Add requirements.txt for export logs example (Python)
+
 ## [1.0.3]
 
 - Fix comments in onnasixmins.py
