@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.0.5]
+
+- clean up auditlogs script
+
 ## [1.0.4]
 
 - Add requirements.txt for export logs example (Python)
