@@ -121,14 +121,12 @@ def main():
     user_activity_response = list()
     user_activity_response = result.json()["items"]
     if cursor is not None:
-        i = 0
         while cursor is not None:
             result = activity_log(
                 from_date, to_date, size, token, base_url, account, container, cursor
             )
             user_activity_response.append(result.json())
             cursor = result.json().get("cursor", None)
-            i += 1
 
     fname = f"{fname}_user_activity_{from_date}-{to_date}"
     write_log(fname, user_activity_response)
