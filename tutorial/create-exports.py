@@ -5,11 +5,11 @@ import auth
 
 base_url = 'https://enterprise.onna.com'
 oauth_path = '/auth/oauth/'
-username = "stefano@oscillator.es"
-container = "stefanoonnanov2020"
-account = "stefanoonnanov2020"
-password = "iLuFJuYSGYQ58r3*"
-path = "https://enterprise.onna.com/stefanoonnanov2020/user/workspaces/demo-obYwIS"
+username = "USERNAME"
+container = "CONTAINER"
+account = "MYACCOUNT"
+password = "Y0urP#ssWoRD!"
+path = "PATH"
 
 # Y0urP#ssWoRD! is your super-secret account password
 # CONTAINER is the name of your Onna account. For more info see https://developers.onna.com/glossary.html#container
