@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.0.6]
+
+- Create authentication.py to show how to authenticate
+
 ## [1.0.5]
 
 - clean up auditlogs script
