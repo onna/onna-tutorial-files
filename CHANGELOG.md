@@ -2,7 +2,7 @@
 
 ## [1.0.6]
 
-- add create exports script
+- Create authentication.py to show how to authenticate
 
 ## [1.0.5]
 
