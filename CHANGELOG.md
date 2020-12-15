@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.0.7]
+
+- Add script to create exports
+
 ## [1.0.6]
 
 - Create authentication.py to show how to authenticate
