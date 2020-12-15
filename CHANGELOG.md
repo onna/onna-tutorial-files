@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.0.6]
+
+- add create exports script
+
 ## [1.0.5]
 
 - clean up auditlogs script
