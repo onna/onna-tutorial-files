@@ -2,6 +2,10 @@
 
 ## [1.0.7]
 
+- Add comment to create exports script and move under /formulas
+
+## [1.0.7]
+
 - Add script to create exports
 
 ## [1.0.6]
