@@ -17,6 +17,7 @@ path = "PATH"
 # USERNAME is the email you signed up with
 # PATH is the URL of your Datasource. For example {baseurl}/{account}/user/workspaces/demo-obYwIS
 
+# Authentication
 resp = requests.get(f'{base_url}/api/{container}/{account}/@oauthgetcode?client_id=canonical&scope={account}')
 auth_code = resp.json()['auth_code']
 print(f"auth_code: {auth_code}")
