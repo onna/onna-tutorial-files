@@ -1,7 +1,7 @@
+import auth
+import datetime
 import json
 import requests
-import datetime
-import auth
 
 base_url = 'https://enterprise.onna.com'
 oauth_path = '/auth/oauth/'
