@@ -44,7 +44,7 @@ async def auth():
 async def create_confluence_ds():
     """Create a Confluence datasource using our authorization token from above.
     This datasource will store the contents of the `original_url` specified in the `data` variable
-    below. In the last step, the call to `@sendToSpyder` ensures that data is scheduled to be 
+    below. In the last step, the call to `@sendToSpyder` ensures that data is scheduled to be
     collected.
     """
     token = await auth()
@@ -70,7 +70,9 @@ async def create_confluence_ds():
         data = await resp.json()
         if resp.status == 201:
             resp = await session.get(
-                f"{data['@id']}/@sendToSpyder?force=true", headers=headers, ssl=False,
+                f"{data['@id']}/@sendToSpyder?force=true",
+                headers=headers,
+                ssl=False,
             )
 
 
