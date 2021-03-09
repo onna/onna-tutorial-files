@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.0.8]
+
+- Update help text in script
+
 ## [1.0.7]
 
 - Add create-preservation under /formulas
