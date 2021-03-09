@@ -36,15 +36,15 @@ argparser.add_argument(
     help="End date. Most date formats are accepted",
 )
 argparser.add_argument(
-    "--container", required=False, default="rel0", help="name of the account container"
+    "--container", required=False, default="rel0", help="Name of the account container"
 )
-argparser.add_argument("--datasources", nargs="+", help="list of datasource ids")
+argparser.add_argument("--datasources", nargs="+", help="List of Datasource IDs")
 
 argparser.add_argument(
     "--list_datasources",
     required=False,
     action="store_true",
-    help="Fetch Datasource ids to include in the preservation",
+    help="Fetch Datasource IDs to include in the preservation",
 )
 
 
