@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.0.9]
+
+- Replicate new structure of developers.onna.com for tutorial files
+
 ## [1.0.8]
 
 - Update help text in script
