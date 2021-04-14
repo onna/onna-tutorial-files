@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.0.10]
+
+- Fix create-preservation script that was failing to parse the response when validating found/not-found users
+
 ## [1.0.9]
 
 - Replicate new structure of developers.onna.com for tutorial files
