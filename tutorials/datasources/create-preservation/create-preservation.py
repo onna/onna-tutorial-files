@@ -123,14 +123,12 @@ def verification_request(emails, token, account_url):
 
 
 def parse_response(response):
-
     found_emails = []
-    not_found_emails = []
-    for account in response:
-        if account.get("found") is True:
-            found_emails.append(account.get("email"))
-        else:
-            not_found_emails.append(account.get("email"))
+    for account in response.get("found", []):
+        for source_account in account.get("source_accounts", []):
+            found_emails.append(source_account.get("email"))
+
+    not_found_emails = [email for email in response.get("not_found")]
 
     return found_emails, not_found_emails
 
