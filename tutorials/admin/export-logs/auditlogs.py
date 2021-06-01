@@ -12,36 +12,58 @@ argparser = argparse.ArgumentParser(
     epilog="Write to a file in the /tmp directory",
 )
 argparser.add_argument(
-    "--username", required=True, type=str, help="Service Account username"
+    "--username",
+    required=True,
+    type=str,
+    help="Service Account username",
 )
-argparser.add_argument("--password", required=True, type=str, help="password")
 argparser.add_argument(
-    "--account", required=True, type=str, help="the Onna account name"
+    "--password",
+    required=True,
+    type=str,
+    help="Account password",
+    )
+argparser.add_argument(
+    "--account",
+    required=True,
+    type=str,
+    help="The name of your Onna account",
 )
 argparser.add_argument(
     "--account_url",
     required=True,
     type=str,
-    help="the URL of your account, e.g https://company.onna.io or https://enterprise.onna.com",
+    help="The URL of your account, e.g https://ACMECORP.onna.io or https://enterprise.onna.com",
 )
 argparser.add_argument(
     "--from_date",
     required=True,
     type=str,
-    help="start date. most date formats are accepted",
+    help="Start date. Most date formats are accepted",
 )
 argparser.add_argument(
     "--to_date",
     required=True,
     type=str,
-    help="end date. most date formats are accepted",
-)
-argparser.add_argument("--fname", required=True, type=str, help="name of the file")
-argparser.add_argument(
-    "--container", required=False, default="rel0", help="name of the account container"
+    help="End date. Most date formats are accepted",
 )
 argparser.add_argument(
-    "--size", required=True, default="10", type=str, help="result size"
+    "--fname",
+    required=True,
+    type=str, help="Set filename to save file as",
+    )
+argparser.add_argument(
+    "--container",
+    required=False,
+    default="rel0",
+    help="Name of the account container",
+)
+argparser.add_argument(
+    "--size",
+    required=True,
+    default="10",
+    type=str,
+    help="Result size",
 )
 
 
