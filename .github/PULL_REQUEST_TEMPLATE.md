@@ -4,7 +4,7 @@
 
 *Please include a summary of the change.*
 
-# ⚡ Priority
+## ⚡ Priority
 
 Define the ETA
 

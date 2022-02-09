@@ -1,18 +1,21 @@
 <!-- Here build and CI badges -->
 
----
-<!-- PROJECT LOGO -->
-<h1 align="center">
-  <br>
-  <img src="https://onna.com/wp-content/uploads/2020/03/h-onna-solid.png" alt="Onna Logo"></a>
-</h1>
+<div align="center">
 
-<h2 align="center">Onna Documentation Files </h2>
+# Reference files
 
-## About
+[Overview](#overview)
+•
+[Documentation](https://developers.onna.com)
 
-Reference files and examples for the technical documentation of [Onna](https://onna.com "Link to onna.com").
+</div>
 
-## Documentation
+<!-- TABLE OF CONTENTS -->
+## Table of contents
 
-Please visit our [technical documentation](https://developers.onna.com "Link to developers.onna.com").
+- [Overview](#overview)
+- [Documentation](https://developers.onna.com)
+
+## Overview
+
+Reference files and examples for the [technical documentation](https://developers.onna.com) of [Onna](https://onna.com "Link to onna.com").
