@@ -1,5 +1,8 @@
 # Changelog
 
+## [1.0.12]
+
+- fix auditlogs requirements downgrade urllib3 version due to incompabilbitly with requests
 ## [1.0.11]
 
 - Update repository setup
