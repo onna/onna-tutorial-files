@@ -1,5 +1,9 @@
 # Changelog
 
+## [1.0.12]
+
+- Add legacy note
+
 ## [1.0.11]
 
 - Update repository setup
